@@ -1,0 +1,80 @@
+html, body { height : 100%; }
+body{
+    margin: 0;
+}
+.sub-title1 {
+    grid-area: header-div; 
+    color:white;
+    background-color: #2196f3;
+    display:grid;
+    align-items: center;
+}
+.margin-header{
+    margin-left: 1%;
+}
+.sub-title2 { grid-area: menu-div;text-align: center;}
+.footer { grid-area: footer-div; 
+color:white;
+background-color: #2196f3;
+display:grid;
+align-items: center;
+}
+.wrapper {
+    grid-template-areas:
+    'header-div'
+    'menu-div'
+    'footer-div';
+  height: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 6% auto 6%;
+}
+
+
+#imglogo{
+    border-radius: 50%;
+    background-color: white;
+}
+
+ #largetitle {
+    font-size: 2.2vw;
+}
+
+#smalltitle {
+    font-size: 1.3vw;
+}
+
+.input{
+     margin-bottom: 2%;
+    
+} 
+.welcome {
+    background: lightgrey;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    margin-bottom: 3%;
+} 
+.txt {
+    padding: 1%;
+   width: 80%;
+   height: 170%;
+   background-color: rgb(234, 234, 234);
+   border: none;
+    font-size: 1.3vw; 
+   padding-left: 10px;
+}
+.btn{
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+.loginbtn {
+    border: none;
+    width: 80%;
+    height: 35px;
+    margin-top: 5%;
+    background-color: #2196f3;
+    color: white;
+     font-size: 1.3vw;
+    position: bottom; 
+} 
